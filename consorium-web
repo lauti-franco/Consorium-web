@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CONSORCIA - Administración de Consorcios</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <!-- Botones flotantes -->
+  <a href="https://wa.me/5493492325001" class="whatsapp" target="_blank">WhatsApp</a>
+  <a href="#inicio" class="btn-arriba" aria-label="Volver arriba">↑</a>
+
+  <!-- Encabezado -->
+  <header>
+    <div class="container">
+      <img src="imgconsorium.jpeg" alt="Logo CONSORCIA" class="logo" />
+      <h1>ADMINISTRACION DE CONSORCIOS</h1>
+    </div>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar" id="navbar">
+      <button id="toggleBtn" class="menu-icon">☰</button>
+      <ul class="menu" id="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#app">Plataforma Digital</a></li>
+        <li><a href="#faq">Preguntas Frecuentes</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#presupuesto">Presupuesto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="seccion animada">
+      <div class="container">
+        <h2>Bienvenidos a CONSORCIA</h2>
+        <p>Administración profesional orientada a ofrecer un servicio integral para la gestión eficiente, transparente y moderna de edificios residenciales y comerciales.</p>
+        <p>Brindamos soluciones confiables adaptadas a las necesidades de propietarios, inquilinos y proveedores. Priorizamos la comunicación clara, el cumplimiento normativo y la mejora de la convivencia.</p>
+      </div>
+    </section>
+
+    <section id="servicios" class="seccion animada">
+      <div class="container">
+        <h2>Servicios Profesionales</h2>
+        <h3>A. Gestión Administrativa y Contable</h3>
+        <ul>
+          <li>Liquidaciones de expensas claras y detalladas</li>
+          <li>Control de ingresos y egresos</li>
+          <li>Pago a proveedores y seguimiento de contratos</li>
+          <li>Rendiciones mensuales con respaldo documental</li>
+          <li>Gestiones de cobranzas administrativas y extrajudiciales</li>
+          <li>Cuenta bancaria exclusiva para cada edificio</li>
+        </ul>
+
+        <h3>B. Gestión Operativa y Edilicia</h3>
+        <ul>
+          <li>Mantenimiento preventivo y correctivo</li>
+          <li>Supervisión de servicios y proveedores</li>
+          <li>Control de ascensores, tanques, matafuegos y espacios comunes</li>
+          <li>Planificación de mejoras con informe técnico</li>
+          <li>Reclamos digitales clasificados por prioridad</li>
+        </ul>
+
+        <h3>C. Gestión Laboral</h3>
+        <ul>
+          <li>Alta y administración de personal</li>
+          <li>Liquidación de sueldos, aportes y cargas sociales</li>
+          <li>Contratación de ART y seguros</li>
+          <li>Cumplimiento de obligaciones legales</li>
+        </ul>
+
+        <h3>E. Comunicación y Notificaciones</h3>
+        <ul>
+          <li>Notificaciones automáticas de cortes, mantenimientos o emergencias</li>
+          <li>Convocatorias y actas digitalizadas</li>
+          <li>Avisos generales y particulares desde la app</li>
+        </ul>
+
+        <h3>F. Asistencia Virtual</h3>
+        <ul>
+          <li>Chatbot 24/7 para consultas frecuentes</li>
+          <li>Soporte sobre pagos, reclamos y normativas</li>
+          <li>Derivación a asistencia humana cuando sea necesario</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="app" class="seccion animada">
+      <div class="container">
+        <h2>Plataforma Digital Exclusiva</h2>
+        <ul>
+          <li>Consulta de expensas actualizadas desde el celular</li>
+          <li>Historial de pagos y deudas</li>
+          <li>Notificaciones automáticas</li>
+          <li>Reclamos clasificados por área</li>
+          <li>Reserva de espacios comunes según disponibilidad</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="faq" class="seccion faq animada">
+      <div class="container">
+        <h2>Preguntas Frecuentes</h2>
+        <details><summary>¿Cuáles son los medios de pago disponibles?</summary><p>Podés abonar mediante transferencia bancaria, débito automático o efectivo.</p></details>
+        <details><summary>¿Cómo puedo realizar un reclamo urgente?</summary><p>Ingresá a la app de CONSORCIA o escribinos por WhatsApp para derivarlo al equipo correspondiente.</p></details>
+        <details><summary>¿Se puede acceder a la documentación del edificio?</summary><p>Sí, todo está disponible en la plataforma digital bajo el perfil del consorcio.</p></details>
+      </div>
+    </section>
+
+    <section id="testimonios" class="seccion animada">
+      <div class="container">
+        <h2>Testimonios</h2>
+        <div class="testimonio">"Desde que CONSORCIA administra nuestro edificio, todo está más ordenado y claro. Excelente atención."<cite>- Marta S., Consorcio Belgrano 1200</cite></div>
+        <div class="testimonio">"Muy profesionales, responden siempre rápido y resuelven los reclamos sin demoras."<cite>- Carlos D., Consorcio Mitre 980</cite></div>
+        <div class="testimonio">"La app es fácil de usar y me mantiene informado. 100% recomendables."<cite>- Laura V., Consorcio Roca 450</cite></div>
+      </div>
+    </section>
+
+    <section id="presupuesto" class="seccion animada">
+      <div class="container">
+        <h2>Solicitá tu Presupuesto</h2>
+        <p>Completá el siguiente formulario y nos pondremos en contacto para enviarte una propuesta adaptada a tu consorcio.</p>
+        <form action="mailto:Admconsorcia@gmail.com" method="post" enctype="text/plain">
+          <label for="nombre-presupuesto">Nombre completo:</label>
+          <input type="text" id="nombre-presupuesto" name="Nombre" required>
+          <label for="direccion">Dirección del consorcio:</label>
+          <input type="text" id="direccion" name="Dirección" required>
+          <label for="email-presupuesto">Correo electrónico:</label>
+          <input type="email" id="email-presupuesto" name="Email" required>
+          <label for="telefono">Teléfono de contacto:</label>
+          <input type="tel" id="telefono" name="Teléfono" required>
+          <label for="comentarios">Comentarios adicionales:</label>
+          <textarea id="comentarios" name="Comentarios" rows="5" placeholder="Cantidad de unidades, servicios deseados, etc."></textarea>
+          <button type="submit">Solicitar presupuesto</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion animada">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p>📞 <a href="tel:+543492325001">3492-325001</a> (Lautaro Franco)</p>
+        <p>📞 <a href="tel:+543482601844">3482-601844</a> (Kevin Maimbil)</p>
+        <p>✉ <a href="mailto:Admconsorcia@gmail.com">Admconsorcia@gmail.com</a></p>
+
+        <form action="mailto:Admconsorcia@gmail.com" method="post" enctype="text/plain">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 CONSORCIA | Administración Profesional de Consorcios</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="java.script">
+    const navbar = document.getElementById('navbar');
+    const toggleBtn = document.getElementById('toggleBtn');
+    const menu = document.getElementById('menu');
+
+    // Mostrar navbar al cargar
+    window.addEventListener('load', () => {
+      navbar.classList.add('visible');
+    });
+
+    // Mostrar/ocultar menú en móvil
+    toggleBtn.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+
+    // Cerrar menú al hacer clic en un enlace
+    document.querySelectorAll('#menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('open');
+      });
+    });
+
+    // Cambiar color del nav al hacer scroll
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolling', window.scrollY > 50);
+
+      // Resaltar sección activa
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('#menu a');
+      let current = '';
+      sections.forEach(section => {
+        const top = window.scrollY;
+        const offset = section.offsetTop - 70;
+        const height = section.offsetHeight;
+        if (top >= offset && top < offset + height) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('activo');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('activo');
+        }
+      });
+
+      // Mostrar secciones con animación
+      document.querySelectorAll('.animada').forEach(sec => {
+        if (sec.getBoundingClientRect().top < window.innerHeight * 0.9) {
+          sec.classList.add('visible');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+
+// Referencias
+const navbar = document.getElementById('navbar');
+const toggleBtn = document.getElementById('toggleBtn');
+const menu = document.getElementById('menu');
+
+// Mostrar navbar con animación al cargar
+window.addEventListener('load', () => {
+  navbar.classList.add('visible');
+});
+
+// Toggle menú hamburguesa en móvil
+toggleBtn.addEventListener('click', () => {
+  menu.classList.toggle('open');
+});
+
+// Cerrar menú al hacer clic en un enlace
+document.querySelectorAll('#menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('open');
+  });
+});
+
+// Scroll: cambiar estilo del navbar y activar animaciones
+window.addEventListener('scroll', () => {
+  // Cambia fondo y padding del navbar
+  if (window.scrollY > 50) {
+    navbar.classList.add('scrolling');
+  } else {
+    navbar.classList.remove('scrolling');
+  }
+
+  // Resaltar sección activa
+  const sections = document.querySelectorAll('section');
+  const navLinks = document.querySelectorAll('#menu a');
+  let current = '';
+  sections.forEach(section => {
+    const top = window.scrollY;
+    const offset = section.offsetTop - 70;
+    const height = section.offsetHeight;
+    if (top >= offset && top < offset + height) {
+      current = section.getAttribute('id');
+    }
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('activo');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('activo');
+    }
+  });
+
+  // Mostrar secciones animadas
+  document.querySelectorAll('.animada').forEach(sec => {
+    if (sec.getBoundingClientRect().top < window.innerHeight * 0.9) {
+      sec.classList.add('visible');
+    }
+  });
+});
+
+/* RESET Y BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ENCABEZADO */
+header {
+  background: #091627;
+  color: white;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.logo {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+/* NAVBAR STICKY + HAMBURGUESA */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #001f3f;
+  z-index: 1000;
+  padding: 15px 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: all 0.8s ease;
+}
+
+.navbar.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.navbar.scrolling {
+  background-color: #001933;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 8px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.menu li a:hover,
+.menu a.activo {
+  background-color: #88c0f0;
+  color: #002b5c;
+  font-weight: bold;
+}
+
+/* HAMBURGUESA */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+}
+
+.menu.open {
+  display: flex !important;
+}
+
+/* SECCIONES */
+.seccion {
+  padding: 60px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.seccion h2 {
+  color: #002b5c;
+  margin-bottom: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.seccion h3 {
+  color: #004080;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.seccion ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* FORMULARIOS */
+form {
+  background-color: #f4f4f4;
+  padding: 25px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 30px auto 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #002b5c;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #004080;
+}
+
+/* CONTACTO */
+#contacto p {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.1em;
+}
+
+#contacto a {
+  color: #002b5c;
+  text-decoration: none;
+}
+
+#contacto a:hover {
+  text-decoration: underline;
+}
+
+/* BOTONES FLOTANTES */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+  font-size: 16px;
+}
+
+.btn-arriba {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: #002b5c;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-decoration: none;
+  z-index: 999;
+  transition: background 0.3s ease;
+}
+
+.btn-arriba:hover {
+  background-color: #004080;
+}
+
+/* FAQ */
+.faq details {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-left: 4px solid #004080;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.faq summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #002b5c;
+  font-size: 1.1em;
+}
+
+/* TESTIMONIOS */
+.testimonio {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 4px solid #004080;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+.testimonio cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* FOOTER */
+footer {
+  background-color: #002b5c;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* ANIMACIÓN DE SECCIONES */
+.animada {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.animada.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .seccion h2 {
+    font-size: 1.5em;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .whatsapp,
+  .btn-arriba {
+    right: 10px;
+    bottom: 10px;
+  }
+}
